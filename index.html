@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Система бронирования кортов</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+        <style>
+        .tab-content {
+            margin-top: 20px;
+        }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <h1 class="text-center">Просмотр свободного времени на кортах Open Tennis</h1>
+            <p class="text-center">Здесь вы можете посмотреть свободное время кортах в Санатории "Металлург" и Курортном городке</p>
+            <p class="text-center">Для записи и получения информации о работе теннисного корта звоните:  +7-989-166-07-77</p>
+            <p class="text-center">Предварительная запись обязательна.</p>
+            <ul class="nav nav-tabs" id="myTab" role="tablist">
+                <li class="nav-item">
+                    <a class="nav-link active" id="metallurg-tab" data-toggle="tab" href="#metallurg" role="tab"
+                       aria-controls="metallurg" aria-selected="true">Санаторий Металлург</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" id="court2-tab" data-toggle="tab" href="#court2" role="tab" aria-controls="court2"
+                       aria-selected="false">Курортный городок грунт 2</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" id="grass-tab" data-toggle="tab" href="#grass" role="tab" aria-controls="grass"
+                       aria-selected="false">Курортный городок трава</a>
+                </li>
+            </ul>
+
+            <div class="tab-content" id="myTabContent">
+                <div class="tab-pane fade show active" id="metallurg" role="tabpanel" aria-labelledby="metallurg-tab">
+                    <div class="row">
+                        <div class="col">
+                            <iframe src="https://calendar.google.com/calendar/embed?src=tennisopensochi%40gmail.com&ctz=Europe%2FMoscow&mode=WEEK"
+                                    style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+                        </div>
+                        <div class="col">
+                            <p>Теннисный корт с искусственным покрытием доступен в любую погоду с 08:00 до 21:00.</p>
+                            <p>Возможно арендовать необходимый инвентарь, тренер — по предварительному запросу.</p>
+                            <p>Посещение корта допускается исключительно в спортивной обуви.</p>
+                            <p>Адрес г. Сочи, Курортный проспект, 92 (санаторий Металлург)</p>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="court2" role="tabpanel" aria-labelledby="court2-tab">
+                    <div class="row">
+                        <div class="col">
+                            <iframe src="https://calendar.google.com/calendar/embed?src=fe3724a9dc4a46e499a02794b922bcf761e56bb55ff28b393b571c1514a710a4%40group.calendar.google.com&ctz=Europe%2FMoscow&mode=WEEK"
+                                    style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+                        </div>
+                        <div class="col">
+                            <p>Теннисный корт с грунтовым покрытием доступен в любую погоду с 08:00 до 21:00.</p>
+                            <p>Возможно арендовать необходимый инвентарь, тренер — по предварительному запросу.</p>
+                            <p>Посещение корта допускается исключительно в спортивной обуви.</p>
+                            <p>Адрес г. Сочи, улица Просвещения (пансионат Фрегат)</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="grass" role="tabpanel" aria-labelledby="grass-tab">
+                    <div class="row">
+                        <div class="col">
+                            <iframe src="https://calendar.google.com/calendar/embed?src=5f17ab24d31ae270500ee616ecd6a0a28bdc86dec589a925f78fba3e785325f8%40group.calendar.google.com&ctz=Europe%2FMoscow&mode=WEEK"
+                                    style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+                        </div>
+                        <div class="col">
+                            <p>Теннисный корт с искуственным покрытием (трава) доступен в любую погоду с 08:00 до 21:00.</p>
+                            <p>Возможно арендовать необходимый инвентарь, тренер — по предварительному запросу.</p>
+                            <p>Посещение корта допускается исключительно в спортивной обуви.</p>
+                            <p>Адрес г. Сочи, улица Просвещения 219 (пансионат Коралл)</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    </body>
+</html>
